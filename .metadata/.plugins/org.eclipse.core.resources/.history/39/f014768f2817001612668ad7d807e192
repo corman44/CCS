@@ -1,0 +1,16 @@
+/*
+ * Title: Practice
+ *
+ * Author: Cory Johnson
+ *
+ * Description:
+ * 		Practicing Interrupts with Timers and Inputs.
+ *
+ */
+
+#include <msp430fr4133.h>
+
+int main(void) {
+	LMP5M
+	return 0;
+}
