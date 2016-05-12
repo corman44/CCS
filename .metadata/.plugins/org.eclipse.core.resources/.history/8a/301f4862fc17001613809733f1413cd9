@@ -5,7 +5,8 @@
  *      Author: coryj
  */
 
-/* Init_GPIO
+/*
+ * Init_GPIO
  *
  * Clear the Outputs from Port1 and Port2
  * Set P1.0 and P4.0 as outputs for LEDs
@@ -14,6 +15,7 @@
  * Enable Pulldown resistor for Port1.2 and Port 2.6
  *
  */
+
 void Init_GPIO() {
 
 	/*		Clearing bits		*/
@@ -29,7 +31,8 @@ void Init_GPIO() {
 	P2DIR &= ~BIT6;		//Set P2.6 as an input
 }
 
-/* Init_Interrupts
+/*
+ * Init_Interrupts
  *
  * Setup Timer Interrupt
  * -Assign clock and divider
@@ -41,8 +44,4 @@ void Init_GPIO() {
  */
 void Init_Interrupts() {
 
-	/*		Timer		*/
-
-
-	/*		Pushbuttons		*/
 }

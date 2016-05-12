@@ -9,7 +9,7 @@
  */
 
 #include <msp430fr4133.h>
-#include "funcstions.h"
+#include "main.h"
 
 int main(void) {
 	WDTCTL = WDTPW | WDTHOLD;

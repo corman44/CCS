@@ -41,8 +41,4 @@ void Init_GPIO() {
  */
 void Init_Interrupts() {
 
-	/*		Timer		*/
-
-
-	/*		Pushbuttons		*/
 }

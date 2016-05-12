@@ -43,6 +43,5 @@ void Init_Interrupts() {
 
 	/*		Timer		*/
 
-
 	/*		Pushbuttons		*/
 }
