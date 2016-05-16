@@ -42,9 +42,9 @@ void Init_GPIO() {
 void Init_Interrupts() {
 
 	/*		Timer		*/
-	TA0CTL |= TASSEL__ACLK + ID__8 + MC__UP + ;		//CLK = 40KHz/8, Up Mode
-	TA0CCTL0 |= CCIE;								//Set
-	TA0CCR0 = 2500;									//0.5 Second Interrupt
+	TA0CTL |= TASSEL__ACLK + ID__8 + MC__UP + ;			//Set Clock Source, Clock Divider, Mode CTL, INT Enable/Flag, Counter Clear
+	TA0CCTL0 |= CCIE;		//Set
+
 
 	/*		Pushbuttons		*/
 }
