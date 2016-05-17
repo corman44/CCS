@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project Interrupts ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../functions.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/bin/cl430" -vmspx --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/include" --advice:power=all --advice:hw_config=all -g --define=__MSP430FR4133__ --diag_wrap=off --display_error_number --diag_warning=225 --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="functions.d"  "../functions.c"
+'Finished building: ../functions.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/bin/cl430" -vmspx --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/include" --advice:power=all --advice:hw_config=all -g --define=__MSP430FR4133__ --diag_wrap=off --display_error_number --diag_warning=225 --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Interrupts.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/bin/cl430" -vmspx --use_hw_mpy=none --advice:power=all --advice:hw_config=all -g --define=__MSP430FR4133__ --diag_wrap=off --display_error_number --diag_warning=225 --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"Interrupts.map" --stack_size=160 --heap_size=160 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/include" --reread_libs --display_error_number --warn_sections --diag_wrap=off --xml_link_info="Interrupts_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Interrupts.out" "./functions.obj" "./main.obj" "../lnk_msp430fr4133.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Interrupts.out'
+' '
+
+**** Build Finished ****
