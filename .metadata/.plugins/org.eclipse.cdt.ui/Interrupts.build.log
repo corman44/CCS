@@ -2,11 +2,6 @@
 **** Build of configuration Debug for project Interrupts ****
 
 "C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
-'Building file: ../functions.c'
-'Invoking: MSP430 Compiler'
-"C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/bin/cl430" -vmspx --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/include" --advice:power=all --advice:hw_config=all -g --define=__MSP430FR4133__ --diag_wrap=off --display_error_number --diag_warning=225 --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="functions.d"  "../functions.c"
-'Finished building: ../functions.c'
-' '
 'Building file: ../main.c'
 'Invoking: MSP430 Compiler'
 "C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/bin/cl430" -vmspx --use_hw_mpy=none --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/msp430_15.12.2.LTS/include" --advice:power=all --advice:hw_config=all -g --define=__MSP430FR4133__ --diag_wrap=off --display_error_number --diag_warning=225 --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"

@@ -1782,3 +1782,159 @@ C Model Exception: C Model Status [Element file:/C:/ti/ccsv6/tools/compiler/ti-c
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-05-17 13:05:15.190
 !MESSAGE Indexed 'OutOfBox_MSP430FR4133' (21 sources, 36 headers) in 0.732 sec: 2,563 declarations; 8,269 references; 0 unresolved inclusions; 7 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-05-17 20:13:50.767 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2016-05-17 20:13:57.150
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2016-05-17 20:13:57.159
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-17 20:14:07.072
+!MESSAGE Indexed 'Examples' (1 sources, 5 headers) in 0.674 sec: 602 declarations; 1,134 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 2 0 2016-05-17 20:14:07.216
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.graph.visualization' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-17 20:14:07.219
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.rovsupport' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-17 20:14:07.225
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-17 20:14:07.243
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.uia.sessionmgr.view' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-17 20:14:07.248
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.util.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.ti.ccstudio.errorreporting 4 0 2016-05-17 20:14:09.711
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorreporting'.
+!STACK 0
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:453)
+	at com.ti.ccstudio.errorreporting.HtmlPostUtility.getUID(HtmlPostUtility.java:219)
+	at com.ti.ccstudio.errorreporting.HtmlPostUtility.heartBeat(HtmlPostUtility.java:267)
+	at com.ti.ccstudio.errorreporting.ErrorReportJob.run(ErrorReportJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-17 20:15:19.691
+!MESSAGE Indexed 'Interrupts' (2 sources, 6 headers) in 0.211 sec: 608 declarations; 1,159 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-17 20:15:32.529
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF / MSP-FET / eZ-FET). Click the "Update" button to update the firmware and launch your debug session (this may require several update steps).  DO NOT UNPLUG THE INTERFACE DURING THE UPDATE.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-17 20:15:32.637
+!MESSAGE DS_ERROR: Error initializing emulator:
+A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF / MSP-FET / eZ-FET). Click the "Update" button to update the firmware and launch your debug session (this may require several update steps).
+
+DO NOT UNPLUG THE INTERFACE DURING THE UPDATE.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-17 21:15:24.166
+!MESSAGE Indexed 'Blink' (1 sources, 0 headers) in 0.007 sec: 3 declarations; 3 references; 1 unresolved inclusions; 0 syntax errors; 7 unresolved names (54%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-17 21:15:24.767
+!MESSAGE Indexed 'Blink' (1 sources, 5 headers) in 0.174 sec: 583 declarations; 1,131 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-17 21:15:25.861
+!MESSAGE Indexed 'Blink' (1 sources, 5 headers) in 0.138 sec: 603 declarations; 1,131 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-05-18 07:04:44.589 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2016-05-18 07:04:47.709
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2016-05-18 07:04:47.711
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY org.eclipse.cdt.ui 4 0 2016-05-18 07:04:57.566
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element file:/C:/ti/ccsv6/ccs_base/msp430/include/msp430fr4133.h does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:484)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:362)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:95)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2016-05-18 07:04:57.588
+!MESSAGE Element file:/C:/ti/ccsv6/ccs_base/msp430/include/msp430fr4133.h does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-18 07:04:58.272
+!MESSAGE Indexed 'Interrupts' (2 sources, 6 headers) in 0.657 sec: 608 declarations; 1,156 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 2 0 2016-05-18 07:04:58.519
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.graph.visualization' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-18 07:04:58.521
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.rovsupport' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-18 07:04:58.527
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-18 07:04:58.542
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.uia.sessionmgr.view' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2016-05-18 07:04:58.545
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.util.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.ti.ccstudio.errorreporting 4 0 2016-05-18 07:05:00.886
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorreporting'.
+!STACK 0
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:453)
+	at com.ti.ccstudio.errorreporting.HtmlPostUtility.getUID(HtmlPostUtility.java:219)
+	at com.ti.ccstudio.errorreporting.HtmlPostUtility.heartBeat(HtmlPostUtility.java:267)
+	at com.ti.ccstudio.errorreporting.ErrorReportJob.run(ErrorReportJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-18 07:05:16.056
+!MESSAGE Indexed 'OutOfBox_MSP430FR4133' (21 sources, 36 headers) in 0.856 sec: 2,563 declarations; 8,269 references; 0 unresolved inclusions; 7 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-18 07:07:52.442
+!MESSAGE Indexed 'Examples' (1 sources, 5 headers) in 0.146 sec: 604 declarations; 1,148 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-18 07:12:31.321
+!MESSAGE Indexed 'Blink' (1 sources, 5 headers) in 0.132 sec: 602 declarations; 1,134 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.058%)

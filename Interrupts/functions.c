@@ -27,7 +27,6 @@ void Init_GPIO() {
 
 	/* 		Outputs		*/
 	P1DIR |= BIT0;		//Set P1.0 as an output
-	P4DIR |= BIT0;		//Set P4.0 as an output
 
 	/*		Inputs		*/
 	P1DIR &= ~BIT2;		//Set P1.2 as an input
@@ -53,16 +52,4 @@ void Init_Interrupts() {
 
 	/*		Pushbuttons		*/
 
-}
-
-/*
- *	TimerA0 Interrupt Service Routine
- *
- *	Toggle Red LED
- *	Clear Interrupt Flag
- */
-#pragma vector = TIMER0_A0_VECTOR
-__interrupt void Timer_A (void) {
-	P1OUT ^= BIT0;		//Toggle Red LED
-	TA0CCTL0 &= ~CCIFG;	//Clear Interrupt Flag
 }

@@ -79,8 +79,8 @@ int main(void)
     PM5CTL0 &= ~LOCKLPM5;
 
     TA0CCTL0 |= CCIE;                             // TACCR0 interrupt enabled
-    TA0CCR0 = 50000;
-    TA0CTL |= TASSEL__SMCLK | MC__CONTINOUS;      // SMCLK, continuous mode
+    TA0CCR0 = 2500;
+    TA0CTL |= TASSEL__ACLK | ID__8 | MC__UP;      // SMCLK, up mode
 
     __bis_SR_register(LPM0_bits | GIE);           // Enter LPM3 w/ interrupts
     __no_operation();                             // For debugger
@@ -97,5 +97,6 @@ void __attribute__ ((interrupt(TIMER0_A0_VECTOR))) Timer_A (void)
 #endif
 {
     P1OUT ^= BIT0;
-    TA0CCR0 += 50000;                             // Add Offset to TACCR0
+    //TA0CCR0 += 50000;                             // Add Offset to TACCR0
+    TA0CCTL0 &= ~CCIFG;
 }
