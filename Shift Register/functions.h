@@ -1,0 +1,23 @@
+/*
+ * functions.h
+ *
+ *  Created on: May 22, 2016
+ *      Author: coryj
+ */
+
+#ifndef FUNCTIONS_H_
+#define FUNCTIONS_H_
+
+#include <stdlib.h>
+#include <msp430.h>
+
+#define SER_Pin 0x05;
+#define SRCLK_Pin
+#define SRCLR_Pin
+#define RCLK_Pin
+#define OE_Pin
+
+void Init_GPIO();
+void Init_Timers();
+
+#endif /* FUNCTIONS_H_ */
